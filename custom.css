@@ -1,0 +1,77 @@
+/* header color */
+
+.cm-inline-code, code {
+	/*color: #50FA7B !important; */
+	color: #00CC99  !important;
+}
+
+
+
+/* bold */
+.cm-strong, strong {
+	color: var(--color-base-100) !important;
+}
+
+
+
+/* header 간격 */
+
+.cm-s-obsidian .HyperMD-header-1, h1 {
+	padding-top: calc( var(--h2-size) * 6 ) !important;
+	padding-bottom: calc( var(--h2-size) * 1 ) !important;
+}
+
+.cm-s-obsidian .HyperMD-header-2, h2 {
+	padding-top: calc( var(--h2-size) * 3.5 ) !important;
+	padding-bottom: calc( var(--h2-size) * 1 ) !important;
+}
+
+.cm-s-obsidian .HyperMD-header-3, h3 {
+	padding-top: calc( var(--h2-size) * 2 ) !important;
+	padding-bottom: calc( var(--h2-size) * 1 ) !important;
+}
+
+
+
+/* nav */
+
+.mod-root > .tree-item-children > .nav-folder > .nav-folder-title > .nav-folder-title-content {
+	font-weight: 900 !important;
+}
+
+.tree-item-self[data-path$="attachments"] {
+	#color: rgb(24,28,32) !important; /* default background color*/
+	#font-size: calc( var(--nav-item-size) * 0.9 ) !important;
+	#font-style: italic !important;
+	display: none !important;
+}
+
+.tree-item-self[data-path$="$!.md"] {
+	color: red !important;
+}
+
+.nav-folder .nav-folder-title-content:before {
+  content: "\1F4C2"; /* open folder character  */
+  padding-right: 8px;
+}
+
+.nav-folder.is-collapsed .nav-folder-title-content:before {
+  content: "\1F4C1" ;    
+  padding-right: 8px;
+}
+
+.nav-file-title-content:before {
+  content: "\1F4C4";
+  padding-right: 8px;
+}
+
+.nav-folder-collapse-indicator {
+	display: none !important;
+}
+
+
+
+/* outline */
+.workspace-leaf-content .collapse-icon {
+	display: none !important;
+}
