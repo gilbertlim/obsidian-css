@@ -40,9 +40,11 @@
 }
 
 .tree-item-self[data-path$="attachments"] {
-	#color: rgb(24,28,32) !important; /* default background color*/
-	#font-size: calc( var(--nav-item-size) * 0.9 ) !important;
-	#font-style: italic !important;
+/*
+	color: rgb(24,28,32) !important;
+	font-size: calc( var(--nav-item-size) * 0.9 ) !important;
+	font-style: italic !important;
+*/
 	display: none !important;
 }
 
